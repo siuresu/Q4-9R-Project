@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Math Homework Helper</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="main.js"></script>
+		<div id="main_calculator">
+		<header><b>Math Homework Helper</b></header>
+		<img id="calculator" src="https://www.nicepng.com/png/detail/137-1372714_free-calculator-icon-black-png-transparent-background-calculator.png">
+</head>
+<body>
+
+<!-- Triangle Area Calculator -->
+
+	<div class="box">
+		<header><b>Triangle Area Calculator</b></header>
+		
+		<div class="input_field">
+			<label>Base:</label>
+			<input id="base_triangle" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Height:</label>
+			<input id="height_triangle" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Area:</label>
+			<input readonly id="area_triangle" type="number" size="20" >
+		</div>
+		
+		<button onclick="calculateTriangleArea()" >Calculate</button>
+	</div>
+
+<!-- Square Area Calculator -->
+
+	<div class="box">
+		<header><b>Square Area Calculator</b></header>
+		
+		<div class="input_field">
+			<label>Side Length:</label>
+			<input id="side_length" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Area:</label>
+			<input readonly id="area_square" type="number" size="20" >
+		</div>
+		
+		<button onclick="calculateSquareArea()" >Calculate</button>
+	</div>
+
+<!-- Rectangle Area Calculator -->
+
+	<div class="box">
+		<header><b>Rectangle Area Calculator</b></header>
+		
+		<div class="input_field">
+			<label>Base:</label>
+			<input id="base_rectangle" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Height:</label>
+			<input id="height_rectangle" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Area:</label>
+			<input readonly id="area_rectangle" type="number" size="20" >
+		</div>
+		
+		<button onclick="calculateRectangleArea()" >Calculate</button>
+	</div>
+
+<!-- Circle Area Calculator -->
+
+	<div class="box">
+		<header><b>Circle Area Calculator</b></header>
+		
+		<div class="input_field">
+			<label>Radius:</label>
+			<input id="radius" type="number" size="20" >
+		</div>
+		
+		<div class="input_field">
+			<label>Area:</label>
+			<input readonly id="area_circle" type="number" size="20" >
+		</div>
+		
+		<button onclick="calculateCircleArea()" >Calculate</button>
+	</div>
+
+</body>
+</html>
